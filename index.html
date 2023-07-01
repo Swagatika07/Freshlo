@@ -1,0 +1,344 @@
+a<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Vegetable and Fruits Store</title>
+    <!--Font awesome cdn links for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+  </head>
+  <body>
+    <!--header section starts here-->
+    <header class="header">
+      <a href="#" class="logo">FRESHLO.</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        
+        <a href="#about">About Us</a>
+        <a href="#contact">Subscribe</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+      <!--search bar section starts here-->
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+      <!--search bar section ends here-->
+
+      <!--cart section starts here-->
+      <div class="shopping-cart">
+
+        <div class="box">
+            <img src="images/f10.png" height="80px" width="80px">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$2.99/-</span>
+                <span class="price">Qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/f2.png" alt="" height="80px" width="80px">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$2.99/-</span>
+                <span class="price">Qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/f1.png" alt="" height="80px" width="80px">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$2.99/-</span>
+                <span class="price">Qty: 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19/-</div>
+          <a href="#" class="btn">Checkout</a>
+
+        
+      </div>
+      <!--cart section ends here-->
+
+      <!--User Login section starts here-->
+      <form action="#" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <p>Forgot Your Password? <a href="#">Click Here</a></p>
+  
+        <p>Don't Have an Account? <a href="#">Create Now</a></p>
+
+        <input type="submit" value="Login Now" class="btn">
+      </form>
+
+      <!--User Login section starts here-->
+
+    </header>
+    <!--header section ends here-->
+
+    <!--Hero section starts here-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh Fruits and <span>Organic</span> Vegetables at your doorstep</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+           sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn">Shop Now</a>
+      </div>
+        <img src="./images/heroSection.png">
+    </section>
+    <!--Hero section ends here-->
+
+    <!--Features section starts here-->
+    <section class="features" id="features">
+      <h1 class="heading"> Our <span>Features</span> </h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/fruitVeg.png" width="230px">
+          <h3>Fresh And Organic</h3>
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="images/homeDelivery.png" width="230px">
+          <h3>Home Delivery</h3>
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="images/easyPayment.png" width="230px">
+          <h3>Easy Payment</h3>
+          <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Features section ends here-->
+
+     <!--categories section starts here-->
+     <section class="categories" id="categories">
+      <h1 class="heading2">Product <span>Categories</span></h1>
+      <div class="box-container">
+       <div class="box">
+         <img src="images/vegetable-removebg-preview.png">
+         <h3>Vegetables</h3>
+         <p>Upto 45% off</p>
+         <a href="#" class="btn">Shop Now</a>
+       </div>
+       <div class="box">
+         <img src="images/fruitss-removebg-preview.png">
+         <h3>Fresh Fruits</h3>
+         <p>Upto 50% off</p>
+         <a href="#" class="btn">Shop Now</a>
+       </div>
+       <div class="box">
+         <img src="images/dairy-removebg-preview.png">
+         <h3>Dairy Products</h3>
+         <p>Upto 35% off</p>
+         <a href="#" class="btn">Shop Now</a>
+       </div>
+       <div class="box">
+         <img src="images/dryFruits-removebg-preview.png">
+         <h3>Dry Fruits</h3>
+         <p>Upto 25% off</p>
+         <a href="#" class="btn">Shop Now</a>
+       </div>
+      </div>
+ 
+      </section>
+ 
+     <!--categories section starts here-->
+    <!-- Products section ends here -->
+<section class="products" id="products">
+  <h1 class="heading"> Our <span>Products</span> </h1>
+  <div class="swiper product-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide box">
+        <img src="images/f1.png">
+        <h1>Strawberry</h1>
+        <div class="price">
+          $12.99/- - $17.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+      
+
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/f2.png">
+        <h1>Pineapple</h1>
+        <div class="price">
+          $15.99/- - $27.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+      
+
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/f3.png">
+        <h1>Blackberry</h1>
+        <div class="price">
+          $12.99/- - $17.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+     
+
+      </div>
+      <div class="swiper-slide box">
+        <img src="images/f6.png">
+        <h1>Pomegranate</h1>
+        <div class="price">
+          $12.99/- - $17.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+      
+
+      </div>
+      <div class="swiper-slide box">
+        <img src="images/f5.png">
+        <h1>Litchi</h1>
+        <div class="price">
+          $12.99/- - $17.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+      
+
+      </div>
+      <div class="swiper-slide box">
+        <img src="images/f9.png">
+        <h1>Banana</h1>
+        <div class="price">
+          $12.99/- - $17.99/-
+        </div>
+        <div class="stars">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      <a href="#" class="btn">ADD TO CART</a>
+    
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Products section ends here -->
+
+    <!--About us-->
+    <section class="about-us">
+      <div class="container">
+          <h1 class="heading">About <span>Us</span></h1>
+          <div class="about-us-wrap flex">
+              <div class="flex-1">
+                  <img src="./images/basket-full-vegetables-removebg-preview.png" alt="" width="150px" height="200px">
+              </div>
+              <div class="flex-1">
+                  <h2>Freshlo is a long established fact that a reader will be distracted</h2>
+                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                      piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                      McClintock, a
+                      Latin professor at Hampden Sydney College in Virginia, The standard chunk of Lorem
+                      Ipsum used
+                      since the 1500s is reproduced below for those interested.</p>
+                  <button class="btn btn-secondary">Read More</button>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--about us ends-->
+ <!--subscribe starts-->
+ <section class="subscribe">
+  <div class="container flex items-center">
+      <div>
+          <img src="./images/vegetable-removebg-preview.png" alt="">
+      </div>
+      <div>
+          <h1>Subscribe to our newsletter</h1>
+          <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many
+              web sites
+              still in their infancy.</p>
+          <div class="input-wrap">
+              <input type="email" placeholder="email@freshlo.com">
+              <button>Subscribe</button>
+          </div>
+      </div>
+  </div>
+</section>
+<!--subscribe ends-->
+
+<footer class="copyright">
+  <p>
+      Copyright © 2023 .All rights reserved by <a href="#">Swagatika Nayak</a>.
+  </p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
